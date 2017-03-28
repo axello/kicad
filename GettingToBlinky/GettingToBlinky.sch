@@ -135,12 +135,9 @@ Wire Wire Line
 	4050 4950 6300 4950
 Wire Wire Line
 	5175 4950 5175 4725
-Wire Wire Line
-	5475 4950 5475 4725
 Connection ~ 5175 4950
 Wire Wire Line
 	6300 4950 6300 4400
-Connection ~ 5475 4950
 Wire Wire Line
 	5250 2875 5250 2775
 Wire Wire Line
@@ -196,4 +193,8 @@ Wire Wire Line
 	4650 4950 4650 5100
 Wire Wire Line
 	2725 4100 2725 4300
+Text Notes 5525 5125 0    60   ~ 0
+N.B. Pin 5 should NOT be grounded!
+NoConn ~ 5475 4725
+Connection ~ 5475 4950
 $EndSCHEMATC

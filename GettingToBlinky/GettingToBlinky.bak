@@ -113,14 +113,18 @@ $EndComp
 Wire Wire Line
 	4550 3550 4050 3550
 Wire Wire Line
-	4050 3300 4050 3650
+	4050 3300 4050 3550
+Wire Wire Line
+	4050 3550 4050 3650
 Connection ~ 4050 3550
 Wire Wire Line
 	4550 3700 4550 4050
 Wire Wire Line
 	4550 4050 4050 4050
 Wire Wire Line
-	4050 3950 4050 4300
+	4050 3950 4050 4050
+Wire Wire Line
+	4050 4050 4050 4300
 Connection ~ 4050 4050
 Wire Wire Line
 	6050 3550 6300 3550
@@ -132,19 +136,20 @@ Connection ~ 4550 4050
 Wire Wire Line
 	4050 4600 4050 4950
 Wire Wire Line
-	4050 4950 6300 4950
+	4050 4950 4650 4950
+Wire Wire Line
+	4650 4950 5175 4950
 Wire Wire Line
 	5175 4950 5175 4725
-Wire Wire Line
-	5475 4950 5475 4725
 Connection ~ 5175 4950
 Wire Wire Line
 	6300 4950 6300 4400
-Connection ~ 5475 4950
 Wire Wire Line
 	5250 2875 5250 2775
 Wire Wire Line
-	4050 2775 5450 2775
+	4050 2775 5250 2775
+Wire Wire Line
+	5250 2775 5450 2775
 Wire Wire Line
 	4050 2775 4050 3000
 Wire Wire Line
@@ -169,7 +174,7 @@ U 1 1 58DA3EDF
 P 2725 3900
 F 0 "BT1" H 2825 4000 50  0000 L CNN
 F 1 "Battery" H 2825 3900 50  0000 L CNN
-F 2 "" V 2725 3960 50  0001 C CNN
+F 2 "GTB:BatteryHolder" V 2725 3960 50  0001 C CNN
 F 3 "" V 2725 3960 50  0001 C CNN
 	1    2725 3900
 	1    0    0    -1  
@@ -196,4 +201,12 @@ Wire Wire Line
 	4650 4950 4650 5100
 Wire Wire Line
 	2725 4100 2725 4300
+Text Notes 5525 5125 0    60   ~ 0
+N.B. Pin 5 should NOT be grounded!
+NoConn ~ 5475 4725
+Connection ~ 5475 4950
+Wire Wire Line
+	5475 4950 6300 4950
+Wire Wire Line
+	5175 4950 5475 4950
 $EndSCHEMATC
