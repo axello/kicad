@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/axel/Documents/Kicad/GettingToBlinky/GettingToBlinky.sch)
-    (date "2017 March 28, Tuesday 13:06:01")
+    (date "2017 March 28, Tuesday 14:38:09")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -53,6 +53,7 @@
       (tstamp 58DA3776))
     (comp (ref BT1)
       (value Battery)
+      (footprint GTB:BatteryHolder)
       (libsource (lib device) (part Battery))
       (sheetpath (names /) (tstamps /))
       (tstamp 58DA3EDF)))
