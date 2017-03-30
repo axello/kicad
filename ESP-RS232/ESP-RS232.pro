@@ -1,4 +1,4 @@
-update=2017 March 29, Wednesday 17:27:09
+update=2017 March 30, Thursday 09:49:06
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=ESP8266
 LibName31=switches
+LibName32=/Users/axel/Documents/Kicad/ESP-RS232/ESP-RS232
