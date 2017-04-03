@@ -1,4 +1,4 @@
-update=2017 March 31, Friday 17:51:58
+update=2017 April 03, Monday 23:04:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/Library/Application Support/kicad/modules;/Library/Application Support/kicad/packages3d
+LibDir=/Library/Application Support/kicad/modules;/Library/Application Support/kicad/packages3d;../libs;../mods
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,6 +58,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=ESP8266
-LibName31=switches
-LibName32=/Users/axel/Documents/Kicad/ESP-RS232/ESP-RS232
+LibName30=ESP-RS232
+LibName31=ESP8266
+LibName32=switches
