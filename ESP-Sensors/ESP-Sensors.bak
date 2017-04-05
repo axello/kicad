@@ -148,7 +148,7 @@ F 1 "POT" V 2925 2350 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T73YP_Horizontal" H 3025 2350 50  0001 C CNN
 F 3 "" H 3025 2350 50  0001 C CNN
 	1    3025 2350
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 3050 2200 0    60   ~ 0
 ANALOG_IN
@@ -282,11 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3225 3600 3225
 Wire Wire Line
-	3175 2350 3325 2350
-Wire Wire Line
-	3325 2350 3325 3125
-Wire Wire Line
-	3325 3125 3600 3125
+	2825 3125 3600 3125
 Wire Wire Line
 	3025 2650 3025 2500
 Wire Wire Line
@@ -648,4 +644,8 @@ Wire Wire Line
 Wire Wire Line
 	2650 2875 3600 2875
 Connection ~ 3600 2875
+Wire Wire Line
+	2825 3125 2825 2350
+Wire Wire Line
+	2825 2350 2875 2350
 $EndSCHEMATC
