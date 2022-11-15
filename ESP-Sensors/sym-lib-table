@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ESP-Sensors-rescue")(type "Legacy")(uri "${KIPRJMOD}/ESP-Sensors-rescue.lib")(options "")(descr ""))
+)

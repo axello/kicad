@@ -1,0 +1,1219 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 1w-esp32-v0.4:ESP32-WROVER U9
+U 1 1 605F8404
+P 8225 2675
+F 0 "U9" H 8200 4012 60  0000 C CNN
+F 1 "ESP32-WROVER-E(16MB)" H 8200 3906 60  0000 C CNN
+F 2 "1w-esp32-v0.4:XCVR_ESP32-WROVER-B_(16MB)" H 8675 2375 60  0001 C CNN
+F 3 "" H 8675 2375 60  0001 C CNN
+F 4 "C529589" H 8225 2675 50  0001 C CNN "LCSC"
+	1    8225 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:FT231XS U2
+U 1 1 605F840B
+P 3625 3050
+F 0 "U2" H 3175 3950 60  0000 C CNN
+F 1 "FT231XS" H 3850 3950 60  0000 C CNN
+F 2 "1w-esp32-v0.4:SSOP-20_FT231X" H 3575 3981 60  0001 C CNN
+F 3 "" H 3625 3050 60  0000 C CNN
+F 4 "C132160" H 3625 3050 50  0001 C CNN "LCSC"
+	1    3625 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:switches_SW_Push SW1
+U 1 1 605F841E
+P 6225 5150
+F 0 "SW1" H 6125 5250 50  0000 C CNN
+F 1 "TS665TP" H 6225 5344 50  0000 C CNN
+F 2 "1w-esp32-v0.4:SW_Push_1P1T_NO_6x6mm_H5.0mm" H 6225 5350 50  0001 C CNN
+F 3 "" H 6225 5350 50  0001 C CNN
+	1    6225 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:switches_SW_Push SW2
+U 1 1 605F8425
+P 6800 5175
+F 0 "SW2" H 6700 5275 50  0000 C CNN
+F 1 "TS665TP" H 6800 5369 50  0000 C CNN
+F 2 "1w-esp32-v0.4:SW_Push_1P1T_NO_6x6mm_H5.0mm" H 6800 5375 50  0001 C CNN
+F 3 "" H 6800 5375 50  0001 C CNN
+F 4 "C412375" H 6800 5175 50  0001 C CNN "LCSC"
+	1    6800 5175
+	0    1    1    0   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:LDL1117S U8
+U 1 1 605F8435
+P 5800 1200
+F 0 "U8" H 5850 1487 60  0000 C CNN
+F 1 "LDL1117S" H 5850 1381 60  0000 C CNN
+F 2 "1w-esp32-v0.4:SOT-223" H 6000 1400 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 6000 1500 60  0001 L CNN
+F 4 "497-1241-1-ND" H 6000 1600 60  0001 L CNN "Digi-Key_PN"
+F 5 "LD1117S33CTR" H 6000 1700 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6000 1800 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 6000 1900 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 6000 2000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241" H 6000 2100 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 800MA SOT223" H 6000 2200 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 6000 2300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6000 2400 60  0001 L CNN "Status"
+F 13 "C435835" H 5800 1200 50  0001 C CNN "LCSC"
+	1    5800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:ZX80-B-5P(30) J2
+U 1 1 605F843D
+P 1050 2850
+F 0 "J2" H 993 3417 50  0000 C CNN
+F 1 "ZX80-B-5P(30)" H 993 3326 50  0000 C CNN
+F 2 "1w-esp32-v0.4:HRS_ZX80-B-5P(30)_rnd" H 1050 2850 50  0001 L BNN
+F 3 "Hirose Electric" H 1050 2850 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 1050 2850 50  0001 L BNN "Field4"
+F 5 "C598210" H 1050 2850 50  0001 C CNN "LCSC"
+	1    1050 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:spoel U1
+U 1 1 605F8445
+P 1875 1200
+F 0 "U1" H 1850 1150 47  0000 C CNN
+F 1 "mi0805k400r-10" H 1900 1300 39  0000 C CNN
+F 2 "1w-esp32-v0.4:mi0805k400r-10" H 1875 1200 118 0001 C CNN
+F 3 "" H 1875 1200 118 0001 C CNN
+F 4 "C480878" H 1875 1200 50  0001 C CNN "LCSC"
+F 5 "SCBG201209U600T" H 1875 1200 50  0001 C CNN "Value-LCSC"
+	1    1875 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R3
+U 1 1 605F844B
+P 2500 2750
+F 0 "R3" V 2425 2675 50  0000 L CNN
+F 1 "27" V 2575 2650 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 2500 2750 50  0001 C CNN
+F 3 "~" H 2500 2750 50  0001 C CNN
+	1    2500 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R2
+U 1 1 605F8451
+P 2500 2525
+F 0 "R2" V 2425 2450 50  0000 L CNN
+F 1 "27" V 2575 2425 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 2500 2525 50  0001 C CNN
+F 3 "~" H 2500 2525 50  0001 C CNN
+	1    2500 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_C C2
+U 1 1 605F8457
+P 1800 3000
+F 0 "C2" H 1825 3100 50  0000 L CNN
+F 1 "47p" H 1825 2900 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 1838 2850 50  0001 C CNN
+F 3 "~" H 1800 3000 50  0001 C CNN
+	1    1800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_C C4
+U 1 1 605F845D
+P 2100 3000
+F 0 "C4" H 2125 3100 50  0000 L CNN
+F 1 "47p" H 2125 2900 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 2138 2850 50  0001 C CNN
+F 3 "~" H 2100 3000 50  0001 C CNN
+	1    2100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2750 1800 2750
+Wire Wire Line
+	1350 2650 2100 2650
+Wire Wire Line
+	2350 2650 2350 2525
+Wire Wire Line
+	2350 2525 2400 2525
+Wire Wire Line
+	1800 2850 1800 2750
+Connection ~ 1800 2750
+Wire Wire Line
+	1800 2750 2400 2750
+Wire Wire Line
+	2100 2850 2100 2650
+Connection ~ 2100 2650
+Wire Wire Line
+	2100 2650 2350 2650
+Wire Wire Line
+	2600 2750 2825 2750
+Wire Wire Line
+	2600 2525 2650 2525
+Wire Wire Line
+	2650 2525 2650 2650
+Wire Wire Line
+	2650 2650 2825 2650
+Wire Wire Line
+	2100 3225 2100 3150
+Wire Wire Line
+	1800 3225 1800 3150
+Connection ~ 1800 3225
+$Comp
+L 1w-esp32-v0.4:Device_C C1
+U 1 1 605F8474
+P 1625 1425
+F 0 "C1" H 1650 1525 50  0000 L CNN
+F 1 "100nF" H 1650 1350 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 1663 1275 50  0001 C CNN
+F 3 "~" H 1625 1425 50  0001 C CNN
+	1    1625 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_C C5
+U 1 1 605F847A
+P 2125 1425
+F 0 "C5" H 2150 1525 50  0000 L CNN
+F 1 "100nF" H 2150 1350 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 2163 1275 50  0001 C CNN
+F 3 "~" H 2125 1425 50  0001 C CNN
+	1    2125 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_C C6
+U 1 1 605F8480
+P 2500 1425
+F 0 "C6" H 2525 1525 50  0000 L CNN
+F 1 "1uF" H 2525 1350 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 2538 1275 50  0001 C CNN
+F 3 "~" H 2500 1425 50  0001 C CNN
+	1    2500 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2550 1425 2550
+Wire Wire Line
+	2825 2400 2700 2400
+Wire Wire Line
+	2700 1200 2625 1200
+Wire Wire Line
+	1625 1275 1625 1200
+Connection ~ 1625 1200
+Wire Wire Line
+	1625 1200 1675 1200
+Wire Wire Line
+	2125 1275 2125 1200
+Connection ~ 2125 1200
+Wire Wire Line
+	2125 1200 2075 1200
+Wire Wire Line
+	2500 1275 2500 1200
+Connection ~ 2500 1200
+Wire Wire Line
+	2500 1200 2125 1200
+Wire Wire Line
+	2825 2300 2775 2300
+Wire Wire Line
+	2775 2300 2775 3050
+Wire Wire Line
+	2775 3050 2825 3050
+Wire Wire Line
+	2825 3550 2775 3550
+Wire Wire Line
+	2775 3550 2775 3050
+Connection ~ 2775 3050
+$Comp
+L 1w-esp32-v0.4:Device_C C7
+U 1 1 605F8498
+P 2775 3800
+F 0 "C7" H 2800 3900 50  0000 L CNN
+F 1 "100nF" H 2800 3700 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 2813 3650 50  0001 C CNN
+F 3 "~" H 2775 3800 50  0001 C CNN
+	1    2775 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 3650 2775 3550
+Connection ~ 2775 3550
+Wire Wire Line
+	3675 4375 3675 4250
+Connection ~ 3575 4375
+Wire Wire Line
+	3575 4375 3675 4375
+Wire Wire Line
+	2775 3950 2775 4375
+Connection ~ 2775 4375
+Wire Wire Line
+	2775 4375 3575 4375
+Wire Wire Line
+	9500 4150 9500 2425
+Wire Wire Line
+	9575 4225 9575 2325
+Wire Wire Line
+	9575 2325 9075 2325
+Wire Wire Line
+	2700 1200 2925 1200
+Wire Wire Line
+	6200 1300 6200 1200
+Wire Wire Line
+	7100 1200 7100 2025
+Wire Wire Line
+	7100 2025 7325 2025
+Connection ~ 6200 1200
+Wire Wire Line
+	7025 1925 7325 1925
+Wire Wire Line
+	5800 1500 5800 1625
+Connection ~ 5800 1625
+Wire Wire Line
+	5800 1625 6500 1625
+Text Label 6550 1200 0    47   ~ 0
++3.3V
+$Comp
+L 1w-esp32-v0.4:Device_C C10
+U 1 1 605F84B4
+P 6500 1400
+F 0 "C10" H 6525 1500 50  0000 L CNN
+F 1 "100nF" H 6525 1325 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 6538 1250 50  0001 C CNN
+F 3 "~" H 6500 1400 50  0001 C CNN
+	1    6500 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1250 6500 1200
+Wire Wire Line
+	6500 1550 6500 1625
+Wire Wire Line
+	7025 3325 7325 3325
+Wire Wire Line
+	7025 3325 7025 4375
+Wire Wire Line
+	9650 4375 9650 2025
+Wire Wire Line
+	9650 1925 9075 1925
+Connection ~ 7025 3325
+Wire Wire Line
+	9075 2025 9650 2025
+Connection ~ 9650 2025
+Wire Wire Line
+	9650 2025 9650 1925
+$Comp
+L 1w-esp32-v0.4:Device_C C8
+U 1 1 605F84C4
+P 5250 1375
+F 0 "C8" H 5275 1475 50  0000 L CNN
+F 1 "100nF" H 5275 1300 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 5288 1225 50  0001 C CNN
+F 3 "~" H 5250 1375 50  0001 C CNN
+	1    5250 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1225 5250 1200
+Connection ~ 5250 1200
+Wire Wire Line
+	5250 1200 5500 1200
+Wire Wire Line
+	5250 1525 5250 1625
+Connection ~ 5250 1625
+Wire Wire Line
+	5250 1625 5800 1625
+Wire Wire Line
+	4325 2500 4750 2500
+Wire Wire Line
+	4750 2500 4750 5075
+Wire Wire Line
+	4750 5425 4900 5425
+Connection ~ 4750 5075
+Wire Wire Line
+	4750 5075 4750 5425
+Wire Wire Line
+	4325 2700 4675 2700
+Wire Wire Line
+	4675 2700 4675 4875
+Wire Wire Line
+	4675 5625 5200 5625
+Wire Wire Line
+	4900 4875 4675 4875
+Connection ~ 4675 4875
+Wire Wire Line
+	4675 4875 4675 5625
+Wire Wire Line
+	9075 3325 9425 3325
+Wire Wire Line
+	9425 3325 9425 4075
+Wire Wire Line
+	9425 4075 5675 4075
+Wire Wire Line
+	5675 4075 5675 5225
+Wire Wire Line
+	7325 2125 6950 2125
+Wire Wire Line
+	6950 2125 6950 4675
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R16
+U 1 1 605F84E3
+P 6950 1850
+F 0 "R16" V 6875 1775 50  0000 L CNN
+F 1 "10k" V 7025 1750 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 6950 1850 50  0001 C CNN
+F 3 "~" H 6950 1850 50  0001 C CNN
+	1    6950 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2125 6950 1950
+Wire Wire Line
+	6950 1750 6950 1200
+Wire Wire Line
+	6950 1200 7100 1200
+$Comp
+L 1w-esp32-v0.4:Device_C C9
+U 1 1 605F84EC
+P 5900 5100
+F 0 "C9" H 5925 5200 50  0000 L CNN
+F 1 "1uF" H 5925 5025 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 5938 4950 50  0001 C CNN
+F 3 "~" H 5900 5100 50  0001 C CNN
+	1    5900 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5750 5900 5250
+Connection ~ 3675 4375
+Wire Wire Line
+	5900 4675 5900 4950
+Wire Wire Line
+	6225 4675 6225 4950
+Connection ~ 5900 4675
+Wire Wire Line
+	6225 5750 6225 5350
+Connection ~ 5900 5750
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R14
+U 1 1 605F84F9
+P 6150 2575
+F 0 "R14" V 6225 2600 50  0000 L CNN
+F 1 "470" V 6225 2425 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 6150 2575 50  0001 C CNN
+F 3 "~" H 6150 2575 50  0001 C CNN
+	1    6150 2575
+	0    1    1    0   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R7
+U 1 1 605F84FF
+P 5500 2575
+F 0 "R7" V 5575 2600 50  0000 L CNN
+F 1 "470" V 5575 2425 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 5500 2575 50  0001 C CNN
+F 3 "~" H 5500 2575 50  0001 C CNN
+	1    5500 2575
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 1200
+Connection ~ 6950 1200
+Wire Wire Line
+	6950 4675 6225 4675
+$Comp
+L 1w-esp32-v0.4:Device_Q_PMOS_GSD Q4
+U 1 1 605F850A
+P 3600 1025
+F 0 "Q4" V 3750 800 50  0000 L CNN
+F 1 "NX2301P" V 3825 850 50  0000 L CNN
+F 2 "1w-esp32-v0.4:SOT-23-3" H 3800 1125 50  0001 C CNN
+F 3 "~" H 3600 1025 50  0001 C CNN
+F 4 "C191273" V 3600 1025 50  0001 C CNN "LCSC"
+	1    3600 1025
+	0    -1   -1   0   
+$EndComp
+Text Label 5300 1200 0    47   ~ 0
++5V
+Connection ~ 7025 4375
+Wire Wire Line
+	7025 1925 7025 3325
+$Comp
+L 1w-esp32-v0.4:Screw_Terminal_1x02 J1
+U 1 1 605F8513
+P 950 5475
+F 0 "J1" H 871 5429 50  0000 R CNN
+F 1 "Screw_Terminal_1x02" H 1500 5800 50  0000 R CNN
+F 2 "1w-esp32-v0.4:20020316-G021B01LF" H 950 5250 50  0001 C CNN
+F 3 "" H 925 5475 50  0001 C CNN
+	1    950  5475
+	1    0    0    1   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_Q_PMOS_GSD Q2
+U 1 1 605F851A
+P 2675 4750
+F 0 "Q2" V 2825 4525 50  0000 L CNN
+F 1 "NX2301P" V 2900 4600 50  0000 L CNN
+F 2 "1w-esp32-v0.4:SOT-23-3" H 2875 4850 50  0001 C CNN
+F 3 "~" H 2675 4750 50  0001 C CNN
+F 4 "" V 2675 4750 50  0001 C CNN "LCSC"
+	1    2675 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7325 3025 6800 3025
+Wire Wire Line
+	6800 3025 6800 4975
+Wire Wire Line
+	6800 5750 6800 5375
+Text Notes 6750 5275 1    47   ~ 0
+Config
+Text Notes 6175 5250 1    47   ~ 0
+Reset
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R15
+U 1 1 605F8525
+P 6800 1850
+F 0 "R15" V 6850 1950 50  0000 L CNN
+F 1 "10k" V 6875 1750 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 6800 1850 50  0001 C CNN
+F 3 "~" H 6800 1850 50  0001 C CNN
+	1    6800 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 1950 6800 3025
+Wire Wire Line
+	6800 1750 6800 1200
+Wire Wire Line
+	6800 1200 6950 1200
+Text Label 1650 5750 0    47   ~ 0
+GND
+$Comp
+L 1w-esp32-v0.4:dk_LED-Indication-Discrete_LTW-2R3D7 D1
+U 1 1 605F853B
+P 10100 2475
+F 0 "D1" V 10225 2475 60  0000 L CNN
+F 1 "kingbright KPD-3224CGCK" H 9375 2325 60  0000 L CNN
+F 2 "1w-esp32-v0.4:LED_1210_3225Metric" H 10300 2675 60  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS20-2005-253/LTW-2R3D7.pdf" H 10300 2775 60  0001 L CNN
+F 4 "160-1772-ND" H 10300 2875 60  0001 L CNN "Digi-Key_PN"
+F 5 "LTW-2R3D7" H 10300 2975 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 10300 3075 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 10300 3175 60  0001 L CNN "Family"
+F 8 "http://optoelectronics.liteon.com/upload/download/DS20-2005-253/LTW-2R3D7.pdf" H 10300 3275 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/lite-on-inc/LTW-2R3D7/160-1772-ND/1277121" H 10300 3375 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED WHITE CLEAR T-1 3/4 T/H" H 10300 3475 60  0001 L CNN "Description"
+F 11 "Lite-On Inc." H 10300 3575 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10300 3675 60  0001 L CNN "Status"
+F 13 "C598332" V 10100 2475 50  0001 C CNN "LCSC"
+	1    10100 2475
+	0    1    1    0   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:dk_LED-Indication-Discrete_LTW-2R3D7 D2
+U 1 1 605F854B
+P 10475 2475
+F 0 "D2" V 10600 2475 60  0000 L CNN
+F 1 "kingbright KPD-3224QBCD" H 9750 2325 60  0000 L CNN
+F 2 "1w-esp32-v0.4:LED_1210_3225Metric" H 10675 2675 60  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS20-2005-253/LTW-2R3D7.pdf" H 10675 2775 60  0001 L CNN
+F 4 "160-1772-ND" H 10675 2875 60  0001 L CNN "Digi-Key_PN"
+F 5 "LTW-2R3D7" H 10675 2975 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 10675 3075 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 10675 3175 60  0001 L CNN "Family"
+F 8 "http://optoelectronics.liteon.com/upload/download/DS20-2005-253/LTW-2R3D7.pdf" H 10675 3275 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/lite-on-inc/LTW-2R3D7/160-1772-ND/1277121" H 10675 3375 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED WHITE CLEAR T-1 3/4 T/H" H 10675 3475 60  0001 L CNN "Description"
+F 11 "Lite-On Inc." H 10675 3575 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10675 3675 60  0001 L CNN "Status"
+F 13 "C598333" V 10475 2475 50  0001 C CNN "LCSC"
+	1    10475 2475
+	0    1    1    0   
+$EndComp
+Text Notes 10600 2425 1    47   ~ 0
+Blauw
+Text Notes 10225 2400 1    47   ~ 0
+Groen
+Wire Wire Line
+	10475 4375 10475 2575
+Connection ~ 9650 4375
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R17
+U 1 1 605F8555
+P 10100 2050
+F 0 "R17" V 10175 1975 50  0000 L CNN
+F 1 "1.5k" V 10025 1975 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 10100 2050 50  0001 C CNN
+F 3 "~" H 10100 2050 50  0001 C CNN
+	1    10100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R18
+U 1 1 605F855B
+P 10475 2050
+F 0 "R18" V 10550 1975 50  0000 L CNN
+F 1 "5.6k" V 10400 1975 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 10475 2050 50  0001 C CNN
+F 3 "~" H 10475 2050 50  0001 C CNN
+	1    10475 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10475 2150 10475 2275
+Wire Wire Line
+	10100 2150 10100 2275
+Wire Wire Line
+	10475 1950 10475 1200
+Wire Wire Line
+	10100 1950 10100 1200
+Wire Wire Line
+	10100 1200 10475 1200
+Wire Wire Line
+	9075 3225 10100 3225
+Text Label 10100 2850 1    47   ~ 0
+Connected
+$Comp
+L 1w-esp32-v0.4:Device_C C3
+U 1 1 605F8569
+P 1950 5400
+F 0 "C3" H 1950 5475 50  0000 L CNN
+F 1 "100nF" H 1950 5325 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C_0805_2012Metric" H 1988 5250 50  0001 C CNN
+F 3 "~" H 1950 5400 50  0001 C CNN
+	1    1950 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4650 1950 4650
+Wire Wire Line
+	1200 4650 1200 5375
+Wire Wire Line
+	1950 5250 1950 4650
+Connection ~ 1950 4650
+Wire Wire Line
+	1950 4650 2225 4650
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R1
+U 1 1 605F8574
+P 2225 5300
+F 0 "R1" V 2150 5275 50  0000 L CNN
+F 1 "10k" V 2300 5225 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 2225 5300 50  0001 C CNN
+F 3 "~" H 2225 5300 50  0001 C CNN
+	1    2225 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2225 5200 2225 4650
+Connection ~ 2225 4650
+Wire Wire Line
+	3575 4250 3575 4375
+Wire Wire Line
+	10100 2575 10100 3225
+Connection ~ 2700 1200
+Wire Wire Line
+	1800 3225 2100 3225
+Wire Wire Line
+	2700 1200 2700 2400
+Wire Wire Line
+	1425 1200 1625 1200
+Wire Wire Line
+	1425 1200 1425 2550
+Wire Wire Line
+	2500 1575 2500 1625
+Connection ~ 2500 1625
+Wire Wire Line
+	2500 1625 2925 1625
+Wire Wire Line
+	2125 1575 2125 1625
+Connection ~ 2125 1625
+Wire Wire Line
+	2125 1625 2500 1625
+Wire Wire Line
+	1625 1575 1625 1625
+Wire Wire Line
+	1625 1625 2125 1625
+Wire Wire Line
+	1350 2950 1525 2950
+Wire Wire Line
+	1525 2950 1525 1625
+Wire Wire Line
+	1525 1625 1625 1625
+Connection ~ 1625 1625
+Wire Wire Line
+	1525 3225 1800 3225
+Wire Wire Line
+	1525 2950 1525 3150
+Wire Wire Line
+	1350 3150 1525 3150
+Connection ~ 1525 3150
+Wire Wire Line
+	1525 3150 1525 3225
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R4
+U 1 1 605F8594
+P 2925 1400
+F 0 "R4" V 2850 1375 50  0000 L CNN
+F 1 "10k" V 3000 1325 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 2925 1400 50  0001 C CNN
+F 3 "~" H 2925 1400 50  0001 C CNN
+	1    2925 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2925 1300 2925 1200
+Wire Wire Line
+	2925 1500 2925 1625
+Connection ~ 2925 1625
+Wire Wire Line
+	1525 4375 1525 3225
+Connection ~ 1525 3225
+Wire Wire Line
+	3675 4375 7025 4375
+Wire Wire Line
+	1525 5750 1950 5750
+Wire Wire Line
+	1150 5375 1200 5375
+Wire Wire Line
+	1200 5750 1525 5750
+Wire Wire Line
+	1950 5550 1950 5750
+Connection ~ 1950 5750
+Wire Wire Line
+	1950 5750 2225 5750
+Wire Wire Line
+	2225 5400 2225 5750
+Connection ~ 2225 5750
+Connection ~ 1525 2950
+Wire Wire Line
+	6500 1200 6800 1200
+Connection ~ 10100 1200
+Connection ~ 6800 1200
+Connection ~ 7100 1200
+Connection ~ 6950 2125
+Connection ~ 6800 3025
+Connection ~ 1525 4375
+Text Notes 10475 2700 1    47   ~ 0
+Power
+Connection ~ 6225 4675
+Connection ~ 6225 5750
+Wire Wire Line
+	6225 5750 6800 5750
+Wire Wire Line
+	5900 4675 6225 4675
+Wire Wire Line
+	5900 5750 6225 5750
+NoConn ~ 4325 2600
+NoConn ~ 4325 2800
+NoConn ~ 4325 2900
+NoConn ~ 4325 3000
+NoConn ~ 4325 3300
+NoConn ~ 4325 3400
+NoConn ~ 4325 3500
+NoConn ~ 4325 3600
+Connection ~ 1525 5750
+Wire Wire Line
+	1525 4375 1525 5750
+Wire Wire Line
+	1200 5750 1200 5575
+Wire Wire Line
+	1200 5575 1150 5575
+NoConn ~ 1350 2850
+Wire Wire Line
+	2875 4650 2975 4650
+Wire Wire Line
+	7025 4375 8300 4375
+Wire Wire Line
+	5100 1200 5100 4450
+Wire Wire Line
+	5100 4450 2975 4450
+Wire Wire Line
+	2975 4450 2975 4650
+Wire Wire Line
+	5100 1200 5250 1200
+$Comp
+L 1w-esp32-v0.4:Device_C C11
+U 1 1 605F861D
+P 9550 1400
+F 0 "C11" H 9575 1500 50  0000 L CNN
+F 1 "22uF" H 9575 1325 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C1210" H 9588 1250 50  0001 C CNN
+F 3 "~" H 9550 1400 50  0001 C CNN
+	1    9550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_C C12
+U 1 1 605F8623
+P 9850 1400
+F 0 "C12" H 9875 1500 50  0000 L CNN
+F 1 "22uF" H 9875 1325 50  0000 L CNN
+F 2 "1w-esp32-v0.4:C1210" H 9888 1250 50  0001 C CNN
+F 3 "~" H 9850 1400 50  0001 C CNN
+	1    9850 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 1550 9850 1625
+Wire Wire Line
+	9650 4375 9850 4375
+Connection ~ 9850 4375
+Wire Wire Line
+	9850 4375 10475 4375
+Wire Wire Line
+	9550 1625 9850 1625
+Connection ~ 9850 1625
+Wire Wire Line
+	9850 1625 9850 4375
+Wire Wire Line
+	9550 1250 9550 1200
+Connection ~ 9550 1200
+Wire Wire Line
+	9550 1550 9550 1625
+Wire Wire Line
+	9550 1200 9850 1200
+Wire Wire Line
+	9850 1250 9850 1200
+Connection ~ 9850 1200
+Wire Wire Line
+	9850 1200 10100 1200
+$Comp
+L 1w-esp32-v0.4:Device_Q_NMOS_GSD Q6
+U 1 1 605F864D
+P 5500 2200
+F 0 "Q6" V 5400 2250 50  0000 C CNN
+F 1 "BSS138BKW" V 5750 2200 50  0000 C CNN
+F 2 "1w-esp32-v0.4:SOT-323" H 5700 2300 50  0001 C CNN
+F 3 "" H 5500 2200 50  0001 C CNN
+	1    5500 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_Q_NMOS_GSD Q7
+U 1 1 605F8653
+P 6175 2200
+F 0 "Q7" V 6075 2250 50  0000 C CNN
+F 1 "BSS138BKW" V 6425 2200 50  0000 C CNN
+F 2 "1w-esp32-v0.4:SOT-323" H 6375 2300 50  0001 C CNN
+F 3 "" H 6175 2200 50  0001 C CNN
+	1    6175 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5725 4150 5725 2575
+Wire Wire Line
+	6375 2300 6450 2300
+Wire Wire Line
+	6450 2300 6450 2575
+Wire Wire Line
+	2775 2300 2775 1900
+Wire Wire Line
+	6175 1900 6175 2000
+Connection ~ 2775 2300
+Wire Wire Line
+	5500 2000 5500 1900
+Connection ~ 5500 1900
+Wire Wire Line
+	5975 2300 5950 2300
+Wire Wire Line
+	5950 2300 5950 2400
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R13
+U 1 1 605F8663
+P 5950 2075
+F 0 "R13" V 5875 2000 50  0000 L CNN
+F 1 "5.6K" V 6025 1975 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 5950 2075 50  0001 C CNN
+F 3 "~" H 5950 2075 50  0001 C CNN
+	1    5950 2075
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R8
+U 1 1 605F8669
+P 5725 2075
+F 0 "R8" V 5650 2000 50  0000 L CNN
+F 1 "5.6K" V 5800 1975 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 5725 2075 50  0001 C CNN
+F 3 "~" H 5725 2075 50  0001 C CNN
+	1    5725 2075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2775 1900 5500 1900
+Wire Wire Line
+	5950 1975 5950 1900
+Connection ~ 5950 1900
+Wire Wire Line
+	5950 1900 6175 1900
+Wire Wire Line
+	5950 2175 5950 2300
+Connection ~ 5950 2300
+$Comp
+L 1w-esp32-v0.4:Device_Q_NMOS_GSD Q3
+U 1 1 605F8675
+P 3500 1425
+F 0 "Q3" V 3400 1475 50  0000 C CNN
+F 1 "BSS138BKW" H 3925 1425 50  0000 C CNN
+F 2 "1w-esp32-v0.4:SOT-323" H 3700 1525 50  0001 C CNN
+F 3 "" H 3500 1425 50  0001 C CNN
+	1    3500 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_Q_NMOS_GSD Q1
+U 1 1 605F867B
+P 2575 5450
+F 0 "Q1" V 2475 5500 50  0000 C CNN
+F 1 "BSS138BKW" V 2825 5450 50  0000 C CNN
+F 2 "1w-esp32-v0.4:SOT-323" H 2775 5550 50  0001 C CNN
+F 3 "" H 2575 5450 50  0001 C CNN
+	1    2575 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2225 5750 2675 5750
+Wire Wire Line
+	2675 5250 2675 5000
+Wire Wire Line
+	2375 5450 2375 4650
+Wire Wire Line
+	2375 4650 2475 4650
+Wire Wire Line
+	2225 4650 2375 4650
+Connection ~ 2375 4650
+Wire Wire Line
+	2675 5650 2675 5750
+Connection ~ 2675 5750
+Wire Wire Line
+	2675 5750 5900 5750
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R5
+U 1 1 605F868A
+P 2975 4800
+F 0 "R5" V 2900 4775 50  0000 L CNN
+F 1 "10k" V 3050 4725 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 2975 4800 50  0001 C CNN
+F 3 "~" H 2975 4800 50  0001 C CNN
+	1    2975 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2675 5000 2975 5000
+Wire Wire Line
+	2975 5000 2975 4900
+Connection ~ 2675 5000
+Wire Wire Line
+	2675 5000 2675 4950
+Wire Wire Line
+	2975 4700 2975 4650
+Connection ~ 2975 4650
+Wire Wire Line
+	2925 1625 3600 1625
+Connection ~ 3600 1625
+Wire Wire Line
+	3600 1625 5250 1625
+Wire Wire Line
+	3300 1425 3300 1200
+Wire Wire Line
+	3300 925  3400 925 
+Wire Wire Line
+	2925 1200 3300 1200
+Connection ~ 2925 1200
+Connection ~ 3300 1200
+Wire Wire Line
+	3300 1200 3300 925 
+Wire Wire Line
+	3800 925  3950 925 
+Wire Wire Line
+	5100 925  5100 1200
+Connection ~ 5100 1200
+$Comp
+L 1w-esp32-v0.4:Device_R_Small R6
+U 1 1 605F86A2
+P 3950 1050
+F 0 "R6" V 3875 1025 50  0000 L CNN
+F 1 "10k" V 4025 975 50  0000 L CNN
+F 2 "1w-esp32-v0.4:R_0805_2012Metric" H 3950 1050 50  0001 C CNN
+F 3 "~" H 3950 1050 50  0001 C CNN
+	1    3950 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 950  3950 925 
+Connection ~ 3950 925 
+Wire Wire Line
+	3950 925  4800 925 
+Wire Wire Line
+	3600 1225 3950 1225
+Wire Wire Line
+	3950 1225 3950 1150
+Connection ~ 3600 1225
+Wire Wire Line
+	5950 2400 5950 2575
+Wire Wire Line
+	5950 2575 6050 2575
+Connection ~ 5950 2400
+Wire Wire Line
+	6250 2575 6450 2575
+Connection ~ 6450 2575
+Wire Wire Line
+	6450 2575 6450 4225
+Wire Wire Line
+	5275 2300 5275 2575
+Wire Wire Line
+	5600 2575 5725 2575
+Wire Wire Line
+	5725 2575 5725 2300
+Connection ~ 5275 2300
+Wire Wire Line
+	5275 2300 5300 2300
+Wire Wire Line
+	5275 2575 5400 2575
+Wire Wire Line
+	4325 2300 5275 2300
+Wire Wire Line
+	5725 2175 5725 2300
+Connection ~ 5725 2300
+Wire Wire Line
+	5725 2300 5700 2300
+Connection ~ 5725 2575
+Wire Wire Line
+	5725 4150 9500 4150
+Wire Wire Line
+	9075 2425 9500 2425
+Wire Wire Line
+	7100 1200 9550 1200
+Wire Wire Line
+	6450 4225 9575 4225
+Wire Wire Line
+	4325 2400 5950 2400
+Wire Wire Line
+	5725 1825 6375 1825
+Wire Wire Line
+	6375 1200 6375 1825
+Connection ~ 6375 1200
+Wire Wire Line
+	6375 1200 6500 1200
+Wire Wire Line
+	5500 1900 5950 1900
+Wire Wire Line
+	5725 1825 5725 1975
+Text HLabel 9125 2125 2    47   BiDi ~ 0
+io23
+Text HLabel 9125 2225 2    47   BiDi ~ 0
+io22
+Text HLabel 9125 2525 2    47   BiDi ~ 0
+io21
+Text HLabel 9125 2725 2    47   BiDi ~ 0
+io19
+Text HLabel 9125 2825 2    47   BiDi ~ 0
+io18
+Text HLabel 9125 2925 2    47   BiDi ~ 0
+io5
+Text HLabel 9125 3425 2    47   BiDi ~ 0
+io2
+Text HLabel 9125 3525 2    47   BiDi ~ 0
+io15
+Text HLabel 9125 3625 2    47   BiDi ~ 0
+io8
+Text HLabel 9125 3725 2    47   BiDi ~ 0
+io7
+Text HLabel 9125 3825 2    47   BiDi ~ 0
+io6
+Wire Wire Line
+	9125 2125 9075 2125
+Wire Wire Line
+	9075 2225 9125 2225
+Wire Wire Line
+	9075 2525 9125 2525
+Wire Wire Line
+	9075 2725 9125 2725
+Wire Wire Line
+	9075 2825 9125 2825
+Wire Wire Line
+	9075 2925 9125 2925
+Wire Wire Line
+	9075 3425 9125 3425
+Wire Wire Line
+	9075 3525 9125 3525
+Wire Wire Line
+	9075 3625 9125 3625
+Wire Wire Line
+	9075 3725 9125 3725
+Wire Wire Line
+	9075 3825 9125 3825
+Text HLabel 7275 2225 0    47   BiDi ~ 0
+io36
+Text HLabel 7275 2325 0    47   BiDi ~ 0
+io39
+Text HLabel 7275 2425 0    47   BiDi ~ 0
+io34
+Text HLabel 7275 2525 0    47   BiDi ~ 0
+io35
+Text HLabel 7275 2625 0    47   BiDi ~ 0
+io32
+Text HLabel 7275 2725 0    47   BiDi ~ 0
+io33
+Text HLabel 7275 2825 0    47   BiDi ~ 0
+io25
+Text HLabel 7275 2925 0    47   BiDi ~ 0
+io26
+Text HLabel 7275 3125 0    47   BiDi ~ 0
+io14
+Text HLabel 7275 3225 0    47   BiDi ~ 0
+io12
+Text HLabel 7275 3425 0    47   BiDi ~ 0
+io13
+Text HLabel 7275 3525 0    47   BiDi ~ 0
+io9
+Text HLabel 7275 3625 0    47   BiDi ~ 0
+io10
+Text HLabel 7275 3725 0    47   BiDi ~ 0
+io11
+Wire Wire Line
+	7275 2225 7325 2225
+Wire Wire Line
+	7325 2325 7275 2325
+Wire Wire Line
+	7275 2425 7325 2425
+Wire Wire Line
+	7275 2525 7325 2525
+Wire Wire Line
+	7275 2625 7325 2625
+Wire Wire Line
+	7275 2725 7325 2725
+Wire Wire Line
+	7275 2825 7325 2825
+Wire Wire Line
+	7275 2925 7325 2925
+Wire Wire Line
+	7275 3125 7325 3125
+Wire Wire Line
+	7275 3225 7325 3225
+Wire Wire Line
+	7275 3425 7325 3425
+Wire Wire Line
+	7275 3525 7325 3525
+Wire Wire Line
+	7275 3625 7325 3625
+Wire Wire Line
+	7275 3725 7325 3725
+Text HLabel 8300 4575 3    47   BiDi ~ 0
+GND
+Text HLabel 6275 850  1    47   BiDi ~ 0
++3.3V
+Text HLabel 5100 850  1    47   BiDi ~ 0
++5V
+Wire Wire Line
+	5100 850  5100 925 
+Connection ~ 5100 925 
+Wire Wire Line
+	6275 850  6275 1200
+Wire Wire Line
+	6200 1200 6275 1200
+Connection ~ 6275 1200
+Wire Wire Line
+	6275 1200 6375 1200
+Wire Wire Line
+	8300 4575 8300 4375
+Connection ~ 8300 4375
+Wire Wire Line
+	8300 4375 9650 4375
+$Comp
+L 1w-esp32-v0.4:PWR_FLAG #FLG0101
+U 1 1 60940507
+P 4800 925
+F 0 "#FLG0101" H 4800 1000 50  0001 C CNN
+F 1 "PWR_FLAG" H 4800 1098 50  0000 C CNN
+F 2 "" H 4800 925 50  0001 C CNN
+F 3 "~" H 4800 925 50  0001 C CNN
+	1    4800 925 
+	1    0    0    -1  
+$EndComp
+Connection ~ 4800 925 
+Wire Wire Line
+	4800 925  5100 925 
+$Comp
+L 1w-esp32-v0.4:PWR_FLAG #FLG0102
+U 1 1 6094150C
+P 2625 1200
+F 0 "#FLG0102" H 2625 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 2625 1373 50  0000 C CNN
+F 2 "" H 2625 1200 50  0001 C CNN
+F 3 "~" H 2625 1200 50  0001 C CNN
+	1    2625 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2625 1200
+Wire Wire Line
+	2625 1200 2500 1200
+$Comp
+L 1w-esp32-v0.4:PWR_FLAG #FLG0103
+U 1 1 609438F4
+P 1775 4375
+F 0 "#FLG0103" H 1775 4450 50  0001 C CNN
+F 1 "PWR_FLAG" H 1775 4548 50  0000 C CNN
+F 2 "" H 1775 4375 50  0001 C CNN
+F 3 "~" H 1775 4375 50  0001 C CNN
+	1    1775 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 4375 1775 4375
+Connection ~ 1775 4375
+Wire Wire Line
+	1775 4375 2775 4375
+$Comp
+L 1w-esp32-v0.4:Device_Q_NMOS_GSD Q5
+U 1 1 603DE1A5
+P 5100 4875
+F 0 "Q5" V 5000 4925 50  0000 C CNN
+F 1 "BSS138BKW" V 5350 4875 50  0000 C CNN
+F 2 "1w-esp32-v0.4:SOT-323" H 5300 4975 50  0001 C CNN
+F 3 "" H 5100 4875 50  0001 C CNN
+	1    5100 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Device_Q_NMOS_GSD Q12
+U 1 1 603F1227
+P 5100 5425
+F 0 "Q12" V 5000 5475 50  0000 C CNN
+F 1 "BSS138BKW" V 5350 5425 50  0000 C CNN
+F 2 "1w-esp32-v0.4:SOT-323" H 5300 5525 50  0001 C CNN
+F 3 "" H 5100 5425 50  0001 C CNN
+	1    5100 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5075 4750 5075
+Wire Wire Line
+	5200 4675 5900 4675
+Wire Wire Line
+	5200 5225 5675 5225
+$EndSCHEMATC

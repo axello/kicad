@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Socket_Arduino_Mega)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Mega.pretty")(options "")(descr "Arduino Mega Power"))
+  (lib (name RF)(type KiCad)(uri /Users/axel/Documents/Kicad/mods/RF.pretty)(options "")(descr "433 MHz RF Modules"))
+  (lib (name ESP-RS232)(type KiCad)(uri /Users/axel/Documents/Kicad/mods/ESP-RS232.pretty)(options "")(descr Logo))
+)

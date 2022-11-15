@@ -1,0 +1,398 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 1wire-v0.4:Device_Q_PMOS_GSD Q9
+U 1 1 609C7E83
+P 3300 3475
+F 0 "Q9" V 3450 3250 50  0000 L CNN
+F 1 "NX2301P" V 3525 3325 50  0000 L CNN
+F 2 "1wire-v0.4:SOT-23-3" H 3500 3575 50  0001 C CNN
+F 3 "~" H 3300 3475 50  0001 C CNN
+F 4 "" V 3300 3475 50  0001 C CNN "LCSC"
+	1    3300 3475
+	0    1    -1   0   
+$EndComp
+$Comp
+L 1wire-v0.4:Device_Q_NMOS_GSD Q8
+U 1 1 609C7E89
+P 3200 4300
+F 0 "Q8" H 3100 4350 50  0000 C CNN
+F 1 "BSS138BKW" V 3450 4300 50  0000 C CNN
+F 2 "1wire-v0.4:SOT-323" H 3400 4400 50  0001 C CNN
+F 3 "" H 3200 4300 50  0001 C CNN
+	1    3200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4500 3300 4625
+Connection ~ 3300 4625
+$Comp
+L 1wire-v0.4:Device_R_Small R9
+U 1 1 609C7E95
+P 2900 4475
+F 0 "R9" V 2825 4450 50  0000 L CNN
+F 1 "10k" V 2975 4400 50  0000 L CNN
+F 2 "1wire-v0.4:R_0805_2012Metric" H 2900 4475 50  0001 C CNN
+F 3 "~" H 2900 4475 50  0001 C CNN
+	1    2900 4475
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1wire-v0.4:Device_R_Small R10
+U 1 1 609C7E9B
+P 3050 3575
+F 0 "R10" V 2975 3500 50  0000 L CNN
+F 1 "10k" V 3125 3500 50  0000 L CNN
+F 2 "1wire-v0.4:R_0805_2012Metric" H 3050 3575 50  0001 C CNN
+F 3 "~" H 3050 3575 50  0001 C CNN
+	1    3050 3575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 4575 2900 4625
+Wire Wire Line
+	2900 4625 3300 4625
+Connection ~ 3300 3675
+Wire Wire Line
+	2900 4375 2900 4300
+Wire Wire Line
+	2900 4300 3000 4300
+$Comp
+L 1wire-v0.4:Device_Q_NMOS_GSD Q11
+U 1 1 609C7EA8
+P 4650 3825
+F 0 "Q11" V 4550 3900 50  0000 C CNN
+F 1 "BSS138BKW" V 4900 3775 50  0000 C CNN
+F 2 "1wire-v0.4:SOT-323" H 4850 3925 50  0001 C CNN
+F 3 "" H 4650 3825 50  0001 C CNN
+	1    4650 3825
+	0    -1   1    0   
+$EndComp
+$Comp
+L 1wire-v0.4:Device_Q_NMOS_GSD Q10
+U 1 1 609C7EAE
+P 4200 3825
+F 0 "Q10" V 4100 3900 50  0000 C CNN
+F 1 "BSS138BKW" V 4450 3825 50  0000 C CNN
+F 2 "1wire-v0.4:SOT-323" H 4400 3925 50  0001 C CNN
+F 3 "" H 4200 3825 50  0001 C CNN
+	1    4200 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L 1wire-v0.4:Device_R_Small R11
+U 1 1 609C7EB4
+P 3950 3750
+F 0 "R11" V 3875 3675 50  0000 L CNN
+F 1 "10k" V 4025 3675 50  0000 L CNN
+F 2 "1wire-v0.4:R_0805_2012Metric" H 3950 3750 50  0001 C CNN
+F 3 "~" H 3950 3750 50  0001 C CNN
+	1    3950 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1wire-v0.4:Device_R_Small R12
+U 1 1 609C7EBA
+P 4925 3750
+F 0 "R12" V 4850 3675 50  0000 L CNN
+F 1 "5.6k" V 5000 3650 50  0000 L CNN
+F 2 "1wire-v0.4:R_0805_2012Metric" H 4925 3750 50  0001 C CNN
+F 3 "~" H 4925 3750 50  0001 C CNN
+	1    4925 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 3850 3950 3925
+Connection ~ 3950 3925
+Wire Wire Line
+	3950 3925 4000 3925
+Wire Wire Line
+	4400 3925 4450 3925
+Wire Wire Line
+	4850 3925 4925 3925
+Wire Wire Line
+	4925 3850 4925 3925
+Connection ~ 4925 3925
+Wire Wire Line
+	4925 3925 5000 3925
+$Comp
+L 1wire-v0.4:Device_R_Small R19
+U 1 1 609C7ED8
+P 5100 3925
+F 0 "R19" V 5025 3850 50  0000 L CNN
+F 1 "22R" V 5175 3850 50  0000 L CNN
+F 2 "1wire-v0.4:R_0805_2012Metric" H 5100 3925 50  0001 C CNN
+F 3 "~" H 5100 3925 50  0001 C CNN
+	1    5100 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1wire-v0.4:Device_R_Small R20
+U 1 1 609C7EDE
+P 5350 3925
+F 0 "R20" V 5275 3850 50  0000 L CNN
+F 1 "22R" V 5425 3850 50  0000 L CNN
+F 2 "1wire-v0.4:R_0805_2012Metric" H 5350 3925 50  0001 C CNN
+F 3 "~" H 5350 3925 50  0001 C CNN
+	1    5350 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1wire-v0.4:Device_R_Small R22
+U 1 1 609C7EE4
+P 6400 3375
+F 0 "R22" V 6325 3300 50  0000 L CNN
+F 1 "22R" V 6475 3300 50  0000 L CNN
+F 2 "1wire-v0.4:R_0805_2012Metric" H 6400 3375 50  0001 C CNN
+F 3 "~" H 6400 3375 50  0001 C CNN
+	1    6400 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1wire-v0.4:Device_C C13
+U 1 1 609C7EEA
+P 5225 4375
+F 0 "C13" H 5250 4475 50  0000 L CNN
+F 1 "100pF" H 5250 4300 50  0000 L CNN
+F 2 "1wire-v0.4:C_0805_2012Metric" H 5263 4225 50  0001 C CNN
+F 3 "~" H 5225 4375 50  0001 C CNN
+	1    5225 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1wire-v0.4:Device_C C14
+U 1 1 609C7EF0
+P 6175 4350
+F 0 "C14" H 6200 4450 50  0000 L CNN
+F 1 "100nF" H 6200 4275 50  0000 L CNN
+F 2 "1wire-v0.4:C_0805_2012Metric" H 6213 4200 50  0001 C CNN
+F 3 "~" H 6175 4350 50  0001 C CNN
+	1    6175 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1wire-v0.4:Device_R_Small R21
+U 1 1 609C7EF6
+P 5975 4375
+F 0 "R21" V 5900 4325 50  0000 L CNN
+F 1 "10k" V 6050 4325 50  0000 L CNN
+F 2 "1wire-v0.4:R_0805_2012Metric" H 5975 4375 50  0001 C CNN
+F 3 "~" H 5975 4375 50  0001 C CNN
+	1    5975 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 3675 3300 3675
+Wire Wire Line
+	3050 3475 3050 3375
+Connection ~ 3050 3375
+Wire Wire Line
+	3050 3375 3100 3375
+Wire Wire Line
+	5225 4225 5225 3925
+Wire Wire Line
+	5225 3925 5200 3925
+Wire Wire Line
+	5250 3925 5225 3925
+Connection ~ 5225 3925
+Wire Wire Line
+	5225 4525 5225 4625
+Wire Wire Line
+	5975 4625 5975 4475
+Wire Wire Line
+	5225 4625 5975 4625
+Wire Wire Line
+	5975 4625 6175 4625
+Wire Wire Line
+	6175 4625 6175 4500
+Connection ~ 5975 4625
+$Comp
+L 1wire-v0.4:Polyfuse_Small F1
+U 1 1 609C7F13
+P 5625 3375
+F 0 "F1" V 5420 3375 50  0000 C CNN
+F 1 "Polyfuse_Small" V 5511 3375 50  0000 C CNN
+F 2 "1wire-v0.4:C1210" H 5675 3175 50  0001 L CNN
+F 3 "~" H 5625 3375 50  0001 C CNN
+	1    5625 3375
+	0    1    1    0   
+$EndComp
+$Comp
+L 1wire-v0.4:RJ10 CN1
+U 1 1 609C7F1D
+P 7075 2900
+F 0 "CN1" V 7086 3230 50  0000 L CNN
+F 1 "RJ10" V 6995 3230 50  0000 L CNN
+F 2 "1wire-v0.4:rj10" H 7075 2900 50  0001 L BNN
+F 3 "" H 7075 2900 50  0001 L BNN
+	1    7075 2900
+	0    1    -1   0   
+$EndComp
+$Comp
+L 1wire-v0.4:RJ10 CN2
+U 1 1 609C7F24
+P 7825 2900
+F 0 "CN2" V 7836 3230 50  0000 L CNN
+F 1 "RJ10" V 7745 3230 50  0000 L CNN
+F 2 "1wire-v0.4:rj10" H 7825 2900 50  0001 L BNN
+F 3 "" H 7825 2900 50  0001 L BNN
+	1    7825 2900
+	0    1    -1   0   
+$EndComp
+$Comp
+L 1wire-v0.4:RJ10 CN3
+U 1 1 609C7F2A
+P 8575 2900
+F 0 "CN3" V 8586 3230 50  0000 L CNN
+F 1 "RJ10" V 8495 3230 50  0000 L CNN
+F 2 "1wire-v0.4:rj10" H 8575 2900 50  0001 L BNN
+F 3 "" H 8575 2900 50  0001 L BNN
+	1    8575 2900
+	0    1    -1   0   
+$EndComp
+$Comp
+L 1wire-v0.4:RJ10 CN4
+U 1 1 609C7F30
+P 9325 2900
+F 0 "CN4" V 9336 3230 50  0000 L CNN
+F 1 "RJ10" V 9245 3230 50  0000 L CNN
+F 2 "1wire-v0.4:rj10" H 9325 2900 50  0001 L BNN
+F 3 "" H 9325 2900 50  0001 L BNN
+	1    9325 2900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3300 3675 3300 4100
+Wire Wire Line
+	3300 4625 5225 4625
+Connection ~ 5225 4625
+Connection ~ 6175 4625
+Wire Wire Line
+	9225 3000 9225 4625
+Wire Wire Line
+	6975 3000 6975 4625
+Wire Wire Line
+	7725 3000 7725 4625
+Wire Wire Line
+	8475 3000 8475 4625
+Wire Wire Line
+	6175 4625 6975 4625
+Connection ~ 6975 4625
+Wire Wire Line
+	6975 4625 7725 4625
+Connection ~ 7725 4625
+Wire Wire Line
+	7725 4625 8475 4625
+Connection ~ 8475 4625
+Wire Wire Line
+	8475 4625 9225 4625
+Wire Wire Line
+	3500 3375 3950 3375
+Wire Wire Line
+	5725 3375 5975 3375
+Wire Wire Line
+	6500 3375 7075 3375
+Wire Wire Line
+	9325 3000 9325 3375
+Wire Wire Line
+	8575 3000 8575 3375
+Connection ~ 8575 3375
+Wire Wire Line
+	8575 3375 9325 3375
+Wire Wire Line
+	7825 3000 7825 3375
+Connection ~ 7825 3375
+Wire Wire Line
+	7825 3375 8575 3375
+Wire Wire Line
+	7075 3000 7075 3375
+Connection ~ 7075 3375
+Wire Wire Line
+	7075 3375 7825 3375
+Wire Wire Line
+	6175 4200 6175 3375
+Connection ~ 6175 3375
+Wire Wire Line
+	6175 3375 6300 3375
+Wire Wire Line
+	5975 4275 5975 3375
+Connection ~ 5975 3375
+Wire Wire Line
+	5975 3375 6175 3375
+Wire Wire Line
+	2375 4300 2900 4300
+Wire Wire Line
+	2375 3375 3050 3375
+Connection ~ 2900 4300
+Wire Wire Line
+	3950 3375 3950 3650
+Connection ~ 3950 3375
+Wire Wire Line
+	3950 3375 4200 3375
+Wire Wire Line
+	4200 3375 4200 3625
+Connection ~ 4200 3375
+Wire Wire Line
+	4200 3375 4650 3375
+Wire Wire Line
+	4650 3375 4650 3625
+Connection ~ 4650 3375
+Wire Wire Line
+	4650 3375 4925 3375
+Wire Wire Line
+	4925 3375 4925 3650
+Connection ~ 4925 3375
+Wire Wire Line
+	4925 3375 5525 3375
+Wire Wire Line
+	9425 3000 9425 3925
+Wire Wire Line
+	8675 3000 8675 3925
+Connection ~ 8675 3925
+Wire Wire Line
+	8675 3925 9425 3925
+Wire Wire Line
+	7925 3000 7925 3925
+Wire Wire Line
+	5450 3925 7175 3925
+Connection ~ 7925 3925
+Wire Wire Line
+	7925 3925 8675 3925
+Wire Wire Line
+	7175 3000 7175 3925
+Connection ~ 7175 3925
+Wire Wire Line
+	7175 3925 7925 3925
+Wire Wire Line
+	2375 3925 3950 3925
+Text HLabel 2375 3375 0    47   Input ~ 0
++5V
+Text HLabel 2375 3925 0    47   Input ~ 0
+1wire_signal
+Text HLabel 2375 4300 0    47   Input ~ 0
+Enable_power
+Wire Wire Line
+	2900 4625 2375 4625
+Connection ~ 2900 4625
+Text HLabel 2375 4625 0    47   Input ~ 0
+GND
+Text Notes 4025 4225 0    47   ~ 0
+Level converter 3.3->5V
+NoConn ~ 7275 3000
+NoConn ~ 8025 3000
+NoConn ~ 8775 3000
+NoConn ~ 9525 3000
+$EndSCHEMATC

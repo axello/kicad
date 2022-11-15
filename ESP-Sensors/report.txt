@@ -1,0 +1,36 @@
+Info: Backing up file '/Users/axel/Documents/Kicad/ESP-Sensors/sym-lib-table' to '/Users/axel/Documents/Kicad/ESP-Sensors/rescue-backup/sym-lib-table-2022-04-02-14-21-11'.
+Info: Backing up file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors.sch' to '/Users/axel/Documents/Kicad/ESP-Sensors/rescue-backup/ESP-Sensors-2022-04-02-14-21-11.sch'.
+Info: Backing up file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors.kicad_pro' to '/Users/axel/Documents/Kicad/ESP-Sensors/rescue-backup/ESP-Sensors-2022-04-02-14-21-11.kicad_pro'.
+Info: Backing up file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-cache.lib' to '/Users/axel/Documents/Kicad/ESP-Sensors/rescue-backup/ESP-Sensors-cache-2022-04-02-14-21-11.lib'.
+Info: Backing up file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-rescue.lib' to '/Users/axel/Documents/Kicad/ESP-Sensors/rescue-backup/ESP-Sensors-rescue-2022-04-02-14-21-11.lib'.
+Info: Backing up file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-rescue.dcm' to '/Users/axel/Documents/Kicad/ESP-Sensors/rescue-backup/ESP-Sensors-rescue-2022-04-02-14-21-11.dcm'.
+Info: Adding library 'ESP-Sensors-rescue', file '${KIPRJMOD}/ESP-Sensors-rescue.lib' to project symbol library table.
+Symbol CONN_01X12 mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol CONN_01X05 mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol PROG_CONN mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol GND mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol VCC mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol R mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol R mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol C mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol POT mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol SW_Push mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol GND mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol C mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol HT7333 mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol GND mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol CONN_01X04 mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol GND mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol ESP-12E mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol GND mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol C mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol GND mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol CONN_01X02 mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol R mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol GND mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol R mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol SW_Push mapped to symbol library 'ESP-Sensors-rescue'.
+Symbol GND mapped to symbol library 'ESP-Sensors-rescue'.
+Info: Symbol library table mapping complete!
+Info: Created project symbol library table.
+

@@ -1,0 +1,333 @@
+EESchema Schematic File Version 2
+LIBS:Arduino_Mega-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP-RS232
+LIBS:freetronics_schematic
+LIBS:arduino_power
+LIBS:RF
+LIBS:Arduino_Mega-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "mar. 31 mars 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 10400 4100 0    60   ~ 0
+21(SCL)
+Text Label 10400 4000 0    60   ~ 0
+20(SDA)
+Text Label 10400 3900 0    60   ~ 0
+19(Rx1)
+Text Label 10400 3800 0    60   ~ 0
+18(Tx1)
+Text Label 10400 3700 0    60   ~ 0
+17(Rx2)
+Text Label 10400 3600 0    60   ~ 0
+16(Tx2)
+Text Label 10400 3500 0    60   ~ 0
+15(Rx3)
+Text Label 10400 3400 0    60   ~ 0
+14(Tx3)
+Text Notes 8375 575  0    60   ~ 0
+Shield for Arduino Mega Rev 3
+$Comp
+L CONN_01X08 P1
+U 1 1 56D73F2C
+P 9950 3750
+F 0 "P1" H 9950 4200 50  0000 C CNN
+F 1 "Communication" V 10050 3750 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9950 3750 50  0001 C CNN
+F 3 "" H 9950 3750 50  0000 C CNN
+	1    9950 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 56D758F6
+P 8650 5750
+F 0 "#PWR01" H 8650 5500 50  0001 C CNN
+F 1 "GND" H 8650 5600 50  0000 C CNN
+F 2 "" H 8650 5750 50  0000 C CNN
+F 3 "" H 8650 5750 50  0000 C CNN
+	1    8650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 56D75AB8
+P 10750 4550
+F 0 "#PWR02" H 10750 4400 50  0001 C CNN
+F 1 "+5V" H 10750 4690 50  0000 C CNN
+F 2 "" H 10750 4550 50  0000 C CNN
+F 3 "" H 10750 4550 50  0000 C CNN
+	1    10750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5A4522C5
+P 4000 2575
+F 0 "#PWR03" H 4000 2325 50  0001 C CNN
+F 1 "GND" H 4000 2425 50  0000 C CNN
+F 2 "" H 4000 2575 50  0001 C CNN
+F 3 "" H 4000 2575 50  0001 C CNN
+	1    4000 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A452322
+P 5125 2050
+F 0 "#PWR04" H 5125 1800 50  0001 C CNN
+F 1 "GND" H 5125 1900 50  0000 C CNN
+F 2 "" H 5125 2050 50  0001 C CNN
+F 3 "" H 5125 2050 50  0001 C CNN
+	1    5125 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L RXB6_RCV U1
+U 1 1 5A452804
+P 3550 2000
+F 0 "U1" H 3425 1700 60  0000 C CNN
+F 1 "RXB6_RCV" H 3550 2300 60  0000 C CNN
+F 2 "RF:RCV" H 3350 2000 60  0001 C CNN
+F 3 "" H 3350 2000 60  0001 C CNN
+	1    3550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RXB6_XMIT U2
+U 1 1 5A452E96
+P 5575 2100
+F 0 "U2" H 5450 2025 60  0000 C CNN
+F 1 "RXB6_XMIT" H 5575 2400 60  0000 C CNN
+F 2 "RF:XMIT" H 5575 2100 60  0001 C CNN
+F 3 "" H 5575 2100 60  0001 C CNN
+	1    5575 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 5A452F8D
+P 6425 2400
+F 0 "#PWR05" H 6425 2250 50  0001 C CNN
+F 1 "+5V" H 6425 2540 50  0000 C CNN
+F 2 "" H 6425 2400 50  0001 C CNN
+F 3 "" H 6425 2400 50  0001 C CNN
+	1    6425 2400
+	1    0    0    -1  
+$EndComp
+Text Label 4050 2075 0    60   ~ 0
+19(Rx1)
+Text Label 4325 1825 0    60   ~ 0
+16(Tx2)
+Text Label 6200 1925 0    60   ~ 0
+14(Tx3)
+NoConn ~ 3100 2200
+NoConn ~ 4000 1950
+$Comp
+L Antenna AE1
+U 1 1 5A45463E
+P 2525 1625
+F 0 "AE1" H 2450 1700 50  0000 R CNN
+F 1 "Antenna" H 2450 1625 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 2525 1625 50  0001 C CNN
+F 3 "" H 2525 1625 50  0001 C CNN
+	1    2525 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna AE2
+U 1 1 5A4546CB
+P 4875 1725
+F 0 "AE2" H 4800 1800 50  0000 R CNN
+F 1 "Antenna" H 4800 1725 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4875 1725 50  0001 C CNN
+F 3 "" H 4875 1725 50  0001 C CNN
+	1    4875 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L ARDUINO_MEGA_POWER J1
+U 1 1 5A462F82
+P 9750 5100
+F 0 "J1" H 9750 6050 50  0000 C CNN
+F 1 "Arduino_Mega_POWER" V 9750 5100 50  0000 C CNN
+F 2 "Socket_Arduino_Mega:Power_Strip_Arduino_Mega_2x18" H 9750 4050 50  0001 C CNN
+F 3 "" H 9750 4050 50  0001 C CNN
+	1    9750 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 5A4633B4
+P 3375 2575
+F 0 "JP1" H 3375 2655 50  0000 C CNN
+F 1 "RF_GND" H 3385 2515 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 3375 2575 50  0001 C CNN
+F 3 "" H 3375 2575 50  0001 C CNN
+	1    3375 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 5A463603
+P 4175 2375
+F 0 "C1" H 4185 2445 50  0000 L CNN
+F 1 "100n" H 4185 2295 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" H 4175 2375 50  0001 C CNN
+F 3 "" H 4175 2375 50  0001 C CNN
+	1    4175 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5A46368D
+P 4500 2375
+F 0 "C2" H 4525 2475 50  0000 L CNN
+F 1 "0.47µ" H 4525 2275 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 4538 2225 50  0001 C CNN
+F 3 "" H 4500 2375 50  0001 C CNN
+	1    4500 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 5A463707
+P 4750 2375
+F 0 "C3" H 4775 2475 50  0000 L CNN
+F 1 "10µF" H 4775 2275 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 4788 2225 50  0001 C CNN
+F 3 "" H 4750 2375 50  0001 C CNN
+	1    4750 2375
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9850 650  9850 475 
+Wire Notes Line
+	8350 650  9850 650 
+Wire Wire Line
+	10400 3400 10150 3400
+Wire Wire Line
+	10150 3500 10400 3500
+Wire Wire Line
+	10400 3600 10150 3600
+Wire Wire Line
+	10150 3700 10400 3700
+Wire Wire Line
+	10400 3800 10150 3800
+Wire Wire Line
+	10150 3900 10400 3900
+Wire Wire Line
+	10400 4000 10150 4000
+Wire Wire Line
+	10150 4100 10400 4100
+Wire Wire Line
+	8900 4850 8650 4850
+Wire Wire Line
+	8900 5350 8650 5350
+Connection ~ 8650 5350
+Wire Wire Line
+	10750 5350 10600 5350
+Wire Wire Line
+	10750 4850 10600 4850
+Connection ~ 10750 4850
+Wire Wire Line
+	10750 4550 10750 5350
+Wire Wire Line
+	8650 4850 8650 5750
+Wire Notes Line
+	11200 6050 8350 6050
+Wire Notes Line
+	8350 6050 8350 500 
+Wire Wire Line
+	4000 2200 4000 2575
+Wire Wire Line
+	4000 2075 4325 2075
+Wire Wire Line
+	4000 1825 4475 1825
+Wire Wire Line
+	6025 1925 6525 1925
+Wire Wire Line
+	4875 1925 5125 1925
+Wire Wire Line
+	2525 1825 3100 1825
+Wire Wire Line
+	6025 2050 6025 2400
+Wire Wire Line
+	6025 2400 6425 2400
+Wire Wire Line
+	3100 1950 3100 2075
+Wire Wire Line
+	3100 2075 2975 2075
+Wire Wire Line
+	2975 2075 2975 2575
+Wire Wire Line
+	2975 2575 3275 2575
+Wire Wire Line
+	3475 2575 4750 2575
+Wire Wire Line
+	4175 2225 4750 2225
+Wire Wire Line
+	4175 2225 4175 2275
+Connection ~ 4500 2225
+Wire Wire Line
+	4475 1825 4475 2225
+Wire Wire Line
+	4475 2225 4500 2225
+Wire Wire Line
+	4175 2575 4175 2475
+Connection ~ 4000 2575
+Wire Wire Line
+	4500 2575 4500 2525
+Connection ~ 4175 2575
+Wire Wire Line
+	4750 2575 4750 2525
+Connection ~ 4500 2575
+NoConn ~ 10400 3500
+NoConn ~ 10400 3700
+NoConn ~ 10400 3800
+NoConn ~ 10400 4000
+NoConn ~ 10400 4100
+NoConn ~ 10500 4850
+NoConn ~ 10500 5350
+NoConn ~ 9025 5350
+NoConn ~ 9000 4850
+$EndSCHEMATC

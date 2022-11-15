@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RXB6_RCV
+D 433 Mhz RF Receiver
+K RF
+$ENDCMP
+#
+$CMP RXB6_XMIT
+D 433 Mhz RF Transmitter
+K RF
+$ENDCMP
+#
+#End Doc Library

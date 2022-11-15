@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "1w-esp32-v0.4")(type "Legacy")(uri "${KIPRJMOD}/1w-grove-v0.1.lib")(options "")(descr ""))
+  (lib (name "1wire-v0.4")(type "Legacy")(uri "${KIPRJMOD}/1wire-v0.4.lib")(options "")(descr ""))
+)

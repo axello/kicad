@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "ESP-Sensors-rescue")(type "Legacy")(uri "${KIPRJMOD}/ESP-Sensors-rescue.lib")(options "")(descr ""))
+  (lib (name "ESP8266")(type "Legacy")(uri "${KIPRJMOD}/ESP8266.lib")(options "")(descr ""))
+  (lib (name "ESP-RS232")(type "Legacy")(uri "/Users/axel/Documents/Kicad/libs/ESP-RS232.lib")(options "")(descr ""))
+)

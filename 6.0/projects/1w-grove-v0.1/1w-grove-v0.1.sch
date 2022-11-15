@@ -1,0 +1,231 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "1w-esp32"
+Date "2020-10-16"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 1w-esp32-v0.4:schroef_3.5mm U4
+U 1 1 5E6760C4
+P 1500 6500
+F 0 "U4" H 1300 6500 50  0000 C CNN
+F 1 "schroef_3.5mm" H 1887 6634 50  0001 C CNN
+F 2 "1w-esp32-v0.4:schroef_3.5mm" H 1500 6500 50  0001 C CNN
+F 3 "" H 1500 6500 50  0001 C CNN
+	1    1500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:schroef_3.5mm U5
+U 1 1 5E676651
+P 1500 6600
+F 0 "U5" H 1300 6600 50  0000 C CNN
+F 1 "schroef_3.5mm" H 1887 6734 50  0001 C CNN
+F 2 "1w-esp32-v0.4:schroef_3.5mm" H 1500 6600 50  0001 C CNN
+F 3 "" H 1500 6600 50  0001 C CNN
+	1    1500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:schroef_3.5mm U6
+U 1 1 5E6768BD
+P 1500 6700
+F 0 "U6" H 1300 6700 50  0000 C CNN
+F 1 "schroef_3.5mm" H 1887 6834 50  0001 C CNN
+F 2 "1w-esp32-v0.4:schroef_3.5mm" H 1500 6700 50  0001 C CNN
+F 3 "" H 1500 6700 50  0001 C CNN
+	1    1500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:schroef_3.5mm U7
+U 1 1 5E676C8F
+P 1500 6800
+F 0 "U7" H 1300 6800 50  0000 C CNN
+F 1 "schroef_3.5mm" H 1887 6934 50  0001 C CNN
+F 2 "1w-esp32-v0.4:schroef_3.5mm" H 1500 6800 50  0001 C CNN
+F 3 "" H 1500 6800 50  0001 C CNN
+	1    1500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:schroef_3.5mm U10
+U 1 1 5F673123
+P 1500 6900
+F 0 "U10" H 1300 6900 50  0000 C CNN
+F 1 "schroef_3.5mm" H 1887 7034 50  0001 C CNN
+F 2 "1w-esp32-v0.4:schroef_3.5mm" H 1500 6900 50  0001 C CNN
+F 3 "" H 1500 6900 50  0001 C CNN
+	1    1500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:schroef_3.5mm U11
+U 1 1 5F6735A8
+P 1500 7000
+F 0 "U11" H 1300 7000 50  0000 C CNN
+F 1 "schroef_3.5mm" H 1887 7134 50  0001 C CNN
+F 2 "1w-esp32-v0.4:schroef_3.5mm" H 1500 7000 50  0001 C CNN
+F 3 "" H 1500 7000 50  0001 C CNN
+	1    1500 7000
+	1    0    0    -1  
+$EndComp
+Text Notes 1300 7600 0    118  ~ 0
+Oude USB socket Hirose ZX80-B-5P, farnell 2300441
+NoConn ~ 1500 6500
+NoConn ~ 1500 6600
+NoConn ~ 1500 6700
+NoConn ~ 1500 6800
+NoConn ~ 1500 6900
+NoConn ~ 1500 7000
+$Comp
+L 1w-esp32-v0.4:Fiducial FID1
+U 1 1 5FF49D1A
+P 2650 6500
+F 0 "FID1" H 2735 6546 50  0000 L CNN
+F 1 "Fiducial" H 2735 6455 50  0000 L CNN
+F 2 "1w-esp32-v0.4:Fiducial_1mm_Mask3mm" H 2650 6500 50  0001 C CNN
+F 3 "" H 2650 6500 50  0001 C CNN
+	1    2650 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Fiducial FID2
+U 1 1 5FF63BC2
+P 2650 6675
+F 0 "FID2" H 2735 6721 50  0000 L CNN
+F 1 "Fiducial" H 2735 6630 50  0000 L CNN
+F 2 "1w-esp32-v0.4:Fiducial_1mm_Mask3mm" H 2650 6675 50  0001 C CNN
+F 3 "" H 2650 6675 50  0001 C CNN
+	1    2650 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:Fiducial FID3
+U 1 1 5FF644B2
+P 2650 6850
+F 0 "FID3" H 2735 6896 50  0000 L CNN
+F 1 "Fiducial" H 2735 6805 50  0000 L CNN
+F 2 "1w-esp32-v0.4:Fiducial_1mm_Mask3mm" H 2650 6850 50  0001 C CNN
+F 3 "" H 2650 6850 50  0001 C CNN
+	1    2650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:prod_pijl P1
+U 1 1 603E4D00
+P 2750 7050
+F 0 "P1" H 2625 7100 47  0000 C CNN
+F 1 "prod_pijl" H 2725 7025 47  0000 C CNN
+F 2 "1w-esp32-v0.4:prod.pijl" H 2750 7050 47  0001 C CNN
+F 3 "" H 2750 7050 47  0001 C CNN
+	1    2750 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1w-esp32-v0.4:prod_pijl P2
+U 1 1 603F4813
+P 2750 7200
+F 0 "P2" H 2625 7250 47  0000 C CNN
+F 1 "prod_pijl" H 2725 7175 47  0000 C CNN
+F 2 "1w-esp32-v0.4:prod.pijl" H 2750 7200 47  0001 C CNN
+F 3 "" H 2750 7200 47  0001 C CNN
+	1    2750 7200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2900 2175 1725 1975
+U 605D50FA
+F0 "esp32-wifi" 47
+F1 "esp32-wifi.sch" 47
+F2 "+3.3V" B R 4625 2350 50 
+F3 "io12" B R 4625 2550 50 
+F4 "io13" B R 4625 2450 50 
+F5 "io18" B L 2900 3125 50 
+F6 "GND" B R 4625 3075 50 
+F7 "io23" B L 2900 3425 50 
+F8 "io22" B L 2900 3350 50 
+F9 "io21" B L 2900 3275 50 
+F10 "io19" B L 2900 3200 50 
+F11 "io5" B L 2900 2300 50 
+F12 "io2" B L 2900 2225 50 
+F13 "io15" B L 2900 3050 50 
+F14 "io8" B L 2900 2525 50 
+F15 "io7" B L 2900 2450 50 
+F16 "io6" B L 2900 2375 50 
+F17 "io36" B L 2900 3950 50 
+F18 "io39" B L 2900 4025 50 
+F19 "io34" B L 2900 3800 50 
+F20 "io35" B L 2900 3875 50 
+F21 "io32" B L 2900 3650 50 
+F22 "io33" B L 2900 3725 50 
+F23 "io25" B L 2900 3500 50 
+F24 "io26" B L 2900 3575 50 
+F25 "io14" B L 2900 2975 50 
+F26 "io9" B L 2900 2600 50 
+F27 "io10" B L 2900 2675 50 
+F28 "io11" B L 2900 2750 50 
+F29 "+5V" B R 4625 2225 50 
+$EndSheet
+NoConn ~ 2900 2225
+NoConn ~ 2900 2300
+NoConn ~ 2900 2375
+NoConn ~ 2900 2450
+NoConn ~ 2900 2525
+NoConn ~ 2900 2600
+NoConn ~ 2900 2675
+NoConn ~ 2900 2750
+NoConn ~ 2900 2975
+NoConn ~ 2900 3050
+NoConn ~ 2900 3200
+NoConn ~ 2900 3275
+NoConn ~ 2900 3350
+NoConn ~ 2900 3425
+NoConn ~ 2900 3500
+NoConn ~ 2900 3575
+NoConn ~ 2900 3650
+NoConn ~ 2900 3725
+NoConn ~ 2900 3800
+NoConn ~ 2900 3875
+NoConn ~ 2900 3950
+NoConn ~ 2900 4025
+$Sheet
+S 6025 2175 875  950 
+U 60A98C12
+F0 "1wire" 47
+F1 "1wire-v0.4.sch" 47
+F2 "+5V" I L 6025 2225 50 
+F3 "1wire_signal" I L 6025 2450 50 
+F4 "Enable_power" I L 6025 2550 50 
+F5 "GND" I L 6025 3075 50 
+$EndSheet
+NoConn ~ 2900 3125
+Wire Wire Line
+	4625 2225 6025 2225
+Wire Wire Line
+	4625 2450 6025 2450
+Wire Wire Line
+	4625 2550 6025 2550
+Wire Wire Line
+	4625 3075 6025 3075
+$Comp
+L 1w-esp32-v0.4:CE-mark U3
+U 1 1 60476E32
+P 1500 7125
+F 0 "U3" H 1225 7125 47  0000 L CNN
+F 1 "CE-mark" H 1650 7125 47  0000 L CNN
+F 2 "1w-esp32-v0.4:CE-140" H 1500 7125 47  0001 C CNN
+F 3 "" H 1500 7125 47  0001 C CNN
+	1    1500 7125
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
