@@ -1,4 +1,326 @@
-20093931105811069
+20191391059933149
+1p-esp32-v0.1
+STPS2L40
+
+
+0
+2
+2
+1p-esp32-v0.1
+STPS2L40U
+
+
+0
+2
+2
+1w-grove-v0.1
+20020316-G021B01LF
+FCI pcb terminal block 5.00 2 pins
+DEV
+0
+2
+2
+1w-grove-v0.1
+20020316-G031B01LF
+FCI pcb terminal block 5.00 3 pins
+DEV
+0
+3
+3
+1w-grove-v0.1
+BME280
+
+
+0
+8
+8
+1w-grove-v0.1
+C1210
+
+
+0
+2
+2
+1w-grove-v0.1
+CE-140
+
+
+0
+0
+0
+1w-grove-v0.1
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+1w-grove-v0.1
+F1792766-2p
+
+
+0
+2
+2
+1w-grove-v0.1
+F1845623-3p
+
+
+0
+3
+3
+1w-grove-v0.1
+F2579786
+
+
+0
+2
+2
+1w-grove-v0.1
+Fiducial_1mm_Mask3mm
+Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)
+fiducial
+0
+1
+0
+1w-grove-v0.1
+HRS_ZX80-B-5P(30)
+
+
+0
+9
+9
+1w-grove-v0.1
+HRS_ZX80-B-5P(30)_rnd
+
+
+0
+9
+9
+1w-grove-v0.1
+LED_1210_3225Metric
+LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+1w-grove-v0.1
+PhoenixContact_MSTBA_2,5_3-G_1x03_P5.00mm_Horizontal
+Generic Phoenix Contact connector footprint for: MSTBA_2,5/3-G; number of pins: 03; pin pitch: 5.00mm; Angled || order number: 1757488 12A || order number: 1923762 16A (HC)
+phoenix_contact connector MSTBA_01x03_G_5.00mm
+0
+3
+3
+1w-grove-v0.1
+PhoenixContact_MSTBV_2,5_3-GF_1x03_P5.00mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MSTBV_2,5/3-GF; number of pins: 03; pin pitch: 5.00mm; Vertical; threaded flange || order number: 1776896 12A || order number: 1924428 16A (HC)
+phoenix_contact connector MSTBV_01x03_GF_5.00mm
+0
+3
+3
+1w-grove-v0.1
+PhoenixContact_MSTBV_2,5_3-GF_1x03_P5.00mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MSTBV_2,5/3-GF; number of pins: 03; pin pitch: 5.00mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x6.5 C or ISO 7049-ST 2.2x6.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1776896 12A || order number: 1924428 16A (HC)
+phoenix_contact connector MSTBV_01x03_GF_5.00mm_MH
+0
+3
+3
+1w-grove-v0.1
+R_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+1w-grove-v0.1
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+1w-grove-v0.1
+SOIC-8_W3.9mm
+
+
+0
+8
+8
+1w-grove-v0.1
+SOT-23-3
+
+
+0
+3
+3
+1w-grove-v0.1
+SOT-223
+
+
+0
+4
+4
+1w-grove-v0.1
+SOT-323
+https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf
+
+0
+3
+3
+1w-grove-v0.1
+SSOP-20_FT231X
+
+
+0
+20
+20
+1w-grove-v0.1
+SW_Push_1P1T_NO_6x6mm_H5.0mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+1w-grove-v0.1
+T6615
+
+
+0
+17
+17
+1w-grove-v0.1
+TTGO_T7-V1.4
+TTGO ESOP32 board with 4MB PSRAM
+TTGO ESP32
+0
+42
+42
+1w-grove-v0.1
+XCVR_ESP32-WROVER-B_(16MB)
+
+
+0
+39
+39
+1w-grove-v0.1
+ali_bme280
+
+
+0
+6
+6
+1w-grove-v0.1
+conn2
+Bornier d'alimentation 2 pins
+DEV
+0
+2
+2
+1w-grove-v0.1
+gh_SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+1w-grove-v0.1
+grove-v0.1
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+1w-grove-v0.1
+mi0805k400r-10
+
+
+0
+2
+2
+1w-grove-v0.1
+prod.pijl
+Arrow for P&P
+
+0
+0
+0
+1w-grove-v0.1
+rj10-v2
+<b>Modular Jack RJ10</b>
+
+0
+4
+4
+1w-grove-v0.1
+schroef_3.5mm
+
+
+0
+1
+1
+1wire-v0.4
+520257-2
+<b>Modular Jack</b><p>with Panel Stops
+
+0
+4
+4
+1wire-v0.4
+C1210
+
+
+0
+2
+2
+1wire-v0.4
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+1wire-v0.4
+F2579786
+
+
+0
+2
+2
+1wire-v0.4
+R_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+1wire-v0.4
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+1wire-v0.4
+SOT-23-3
+
+
+0
+3
+3
+1wire-v0.4
+SOT-323
+https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf
+
+0
+3
+3
+1wire-v0.4
+rj10
+<b>Modular Jack RJ10</b>
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51820,6 +52142,97 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP8266
+ESP-01
+Module, ESP-8266, ESP-01, 8 pin
+Module ESP-8266 ESP8266
+0
+8
+8
+ESP8266
+ESP-03
+Module, ESP-8266, ESP-03, 14 pad, SMD
+Module ESP-8266 ESP8266
+0
+14
+14
+ESP8266
+ESP-06
+
+
+0
+20
+20
+ESP8266
+ESP-07S
+Module, ESP-8266, ESP-07S, 14 pad, SMD
+Module ESP-8266 ESP8266
+0
+16
+16
+ESP8266
+ESP-07v2
+Module, ESP-8266, ESP-07v2, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+16
+16
+ESP8266
+ESP-12
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+16
+16
+ESP8266
+ESP-12E
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+22
+22
+ESP8266
+ESP-12E_SMD
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+22
+22
+ESP8266
+ESP-13-WROOM-02
+Module, ESP-8266, ESP-13-WROOM-02, 18 pad, SMD
+Module ESP-8266 ESP8266
+0
+19
+19
+ESP8266
+ESP-201
+Module, ESP-8266, ESP-201, 26 pin, through hole, 0.1 inch
+Module ESP-8266 ESP8266
+0
+26
+26
+ESP8266
+ESP12F-Devkit-V3
+
+
+0
+30
+30
+ESP8266
+NodeMCU-LoLinV3
+
+
+0
+30
+30
+ESP8266
+NodeMCU1.0(12-E)
+
+
+0
+30
+30
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

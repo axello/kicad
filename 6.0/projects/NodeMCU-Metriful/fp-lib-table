@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "1p-esp32-v0.1")(type "KiCad")(uri "/Users/axel/Documents/Kicad/6.0/projects/1w-grove-v0.1/1p-esp32-v0.1.pretty")(options "")(descr ""))
+  (lib (name "1wire-v0.4")(type "KiCad")(uri "/Users/axel/Documents/Kicad/6.0/projects/1w-grove-v0.1/1wire-v0.4.pretty")(options "")(descr ""))
+  (lib (name "ESP8266")(type "KiCad")(uri "/Users/axel/Documents/Kicad/libs/kicad-ESP8266/ESP8266.pretty")(options "")(descr ""))
+  (lib (name "1w-grove-v0.1")(type "KiCad")(uri "/Users/axel/Documents/Kicad/6.0/projects/1w-grove-v0.1/1w-grove-v0.1.pretty")(options "")(descr ""))
+)
